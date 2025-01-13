@@ -1,0 +1,46 @@
+*Note: This is llmstxt.txt is not complete, please enter a Firecrawl API key to get the entire llmstxt.txt at llmstxt.firecrawl.dev or you can access llms.txt via API with curl -X GET 'http://llmstxt.firecrawl.dev/https://docs.composio.dev/introduction/intro/overview?FIRECRAWL_API_KEY=YOUR_API_KEY' or llms-full.txt via API with curl -X GET 'http://llmstxt.firecrawl.dev/https://docs.composio.dev/introduction/intro/overview/full?FIRECRAWL_API_KEY=YOUR_API_KEY'
+
+# https://docs.composio.dev/introduction/intro/overview llms.txt
+
+- [Composio Groq Framework](https://docs.composio.dev/framework/groq): Use Composio to connect Groq-based assistants with various tools and perform actions like starring GitHub repositories.
+- [Composio OpenAI Integration](https://docs.composio.dev/framework/openai): Use OpenAI Assistants with Composio tools to build powerful agents.
+- [Composio Framework: CrewAI](https://docs.composio.dev/framework/crewai): Use CrewAI agent to perform actions on GitHub using Composio tools and APIs.
+- [Composio Autogen GitHub Integration](https://docs.composio.dev/framework/autogen): Use Composio Autogen and tools to star GitHub repositories; includes setup, code examples, and API key configuration.
+- [Composio Phidata Integration](https://docs.composio.dev/framework/phidata): Use Phidata agents with Composio tools to interact with Github and other services.
+- [SWE Kit Benchmarks](https://docs.composio.dev/swekit/benchmarks): Benchmark SWE agents using standardized tests and tools provided by the SWE Development Kit, comparing different agent implementations.
+- [LangChain Framework Guide](https://docs.composio.dev/framework/langchain): Use LangChain with Composio to build powerful agents; this guide demonstrates starring a GitHub repo using Composio tools and LangChain.
+- [Composio LangFlow Integration](https://docs.composio.dev/framework/langflow): Guide to using Composio tools within the LangFlow framework for building LLM agents.
+- [LlamaIndex and Composio](https://docs.composio.dev/framework/llamaindex): Use LlamaIndex with Composio to build agents that interact with GitHub, starring repositories via Composio tools.
+- [Composio on Vercel AI](https://docs.composio.dev/javascript/vercel): Star Github repos using Composio, Vercel AI SDK, and Javascript.
+- [LangGraph Framework Guide](https://docs.composio.dev/framework/langgraph): Use LangGraph agents with Composio to build powerful workflows.
+- [SWE Kit Introduction](https://docs.composio.dev/swekit/introduction): Build Software Engineering agents using Composio's SWE Development Kit; includes agent scaffolding, flexible workspace environments, customizable tools, and benchmarking.
+- [Composio Letta Agent](https://docs.composio.dev/framework/letta): Use Composio and Letta to star GitHub repositories; includes setup, integration, and execution examples.
+- [Composio Cloudflare Worker AI](https://docs.composio.dev/javascript/cloudflare): Use Cloudflare Worker AI with Composio to build GitHub agents.
+- [SWE Kit JS Introduction](https://docs.composio.dev/swekit-js/introduction): Build powerful software engineering agents using Composio's framework.  Includes setup, key features, and getting started guide.
+- [Composio Overview](https://docs.composio.dev/introduction/intro/overview): Composio connects AI agents to external tools like Gmail, GitHub, Salesforce, etc., enabling seamless integration and managed execution.
+- [Composio Overview](https://docs.composio.dev/introduction/intro/overview): Composio connects AI agents to external tools (Gmail, GitHub, Salesforce, etc.), enabling seamless integration and efficient workflows.
+- [Composio Julep Integration](https://docs.composio.dev/framework/julep): Guide on using Composio tools within Julep agents to interact with external applications like GitHub.
+- [Composio Tools and Actions](https://docs.composio.dev/faq/integrations_and_connections/list_of_tools): List of Composio apps, actions, and how to access them via Python, JavaScript, and CLI.
+- [Composio and CAMEL-AI](https://docs.composio.dev/framework/camelai): Integrate CAMEL agents with Composio tools to connect with various services like GitHub.
+- [Composio Tool Actions](https://docs.composio.dev/patterns/tools/use-tools/use-specific-actions): Learn to specify and filter Composio tool actions for efficient LLM integration, avoiding overwhelming the model with irrelevant choices.
+- [Composio Basic Concepts](https://docs.composio.dev/introduction/intro/basic): Understand core Composio entities: accounts, apps, actions, triggers, and integrations.
+- [Composio Connected Accounts](https://docs.composio.dev/patterns/Auth/connected_account): Manage user connections, integrations, and authentication for your Composio applications.
+- [Composio Overview](https://docs.composio.dev/introduction/intro/overview): Composio connects AI agents to external tools like Gmail, GitHub, Salesforce, etc., enabling seamless integration and secure authentication.
+- [Composio CLI Guide](https://docs.composio.dev/faq/api_key/cli): Manage Composio agents via command-line interface: installation, login, updates, user verification, and logout.
+- [Using Connections](https://docs.composio.dev/patterns/Auth/using-connections): Manage Composio app connections: get connected accounts, check connections for specific apps, and fetch connection parameters for custom actions.
+- [List Action Tags API](https://docs.composio.dev/api-reference/actions/list-action-tags): API reference for listing Composio action tags using GET request, including cURL, Python, JavaScript, PHP, Go, and Java examples.
+- [Python RAG Agent Example](https://docs.composio.dev/examples/combined/rag-agent-python): Build a Python RAG agent using Composio, CrewAI, and Langchain for efficient knowledge retrieval.
+- [Composio App Integrations](https://docs.composio.dev/patterns/Auth/Integrations): Configure Composio app integrations with external services like GitHub, Slack, and HubSpot using various methods, including the dashboard, SDK, and custom OAuth apps.
+- [Composio Tools & Actions](https://docs.composio.dev/patterns/tools/what-are-tools): Composio tools and actions empower LLMs to interact with real-world applications via Python and JavaScript SDKs, enabling functionalities like email sending and GitHub operations.
+- [Composio Quickstart: Tools](https://docs.composio.dev/introduction/intro/quickstart-tools): Quickstart guide for using Composio tools: connect GitHub, fetch actions, use LLMs to star repos, and execute tool calls.
+- [Composio Overview](https://docs.composio.dev/introduction/intro/overview): Composio connects AI agents to external tools (Gmail, GitHub, Salesforce, etc.) via seamless connections, authentication mechanisms, and managed execution environments.  It offers full visibility and supports multiple languages.
+- [Custom Composio Integrations](https://docs.composio.dev/patterns/tools/custom-integration): Integrate custom apps into Composio using OpenAPI Spec and integrations.yaml; a step-by-step guide with examples.
+- [SQL Agent with JavaScript](https://docs.composio.dev/examples/combined/sql-agent-javascript): Guide to building a SQL agent in JavaScript using Composio and OpenAI to query databases and plot graphs.
+- [Composio Workspace Environments](https://docs.composio.dev/introduction/foundations/components/workspace): Composio workspace environments enable isolated, secure tool execution with customizable configurations for security, resource allocation, and networking.
+- [AI Scheduling Agent](https://docs.composio.dev/sdrkit/ai-scheduling-agent): Automated assistant scheduling meetings via email, Google Calendar, and confirmation emails.
+- [SWE Kit PR Review Agent](https://docs.composio.dev/swekit-examples/introduction): Build a PR review agent using Composio's SWE Development Kit.  This guide provides a step-by-step tutorial and examples.
+- [Serving Composio Tools](https://docs.composio.dev/patterns/tools/serve-tools): Serve Composio tools via a FastAPI endpoint, enabling natural language interaction with GitHub.
+- [Composio Overview](https://docs.composio.dev/introduction/intro/overview): Composio connects AI agents to external tools (Gmail, GitHub, Salesforce, etc.), enabling seamless integration and managed execution environments.
+- [Composio SWE Kit Tools](https://docs.composio.dev/swekit-tools/introduction): Comprehensive guide to Composio's software engineering tools, including File, Code Analysis, Shell, RAG, Embed, and other useful tools.
+- [Enable Composio Trigger API](https://docs.composio.dev/api-reference/triggers/enable-trigger): API reference for enabling Composio triggers; includes cURL, Python, JavaScript, PHP, Go, and Java examples.
+- [Custom Composio Actions with Auth](https://docs.composio.dev/patterns/tools/build-tools/custom-action-with-auth): Learn to build custom Composio actions with authentication, leveraging existing tool authentication for secure and flexible functionality.
